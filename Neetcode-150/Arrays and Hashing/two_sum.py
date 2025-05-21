@@ -1,7 +1,7 @@
 # Two Sum
 # Overall Time Complexity: O(n)
 # Overall Space Complexity: O(n)
-# Hint: Hash map to store previously seen numbers and their indices
+# Hint: Hash map to store numbers and their indices and checking for complements
 
 def twoSum(nums, target):
     hashmap = {}
