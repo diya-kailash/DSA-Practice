@@ -25,3 +25,7 @@ def groupAnagrams(strs):
 # Space Complexity:
 # - Hash map stores up to m keys, each mapping to a list of strings: O(m)
 # - Each key is a tuple of length 26 (fixed size): O(1)
+
+strs = ["act","pots","tops","cat","stop","hat"]
+result = groupAnagrams(strs)
+print(result)  # Output: [['act', 'cat'], ['pots', 'tops', 'stop'], ['hat']]
