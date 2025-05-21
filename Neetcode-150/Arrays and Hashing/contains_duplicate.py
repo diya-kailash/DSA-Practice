@@ -3,7 +3,6 @@
 # Overall Space Complexity: O(n)
 # Hint: Hash set to track duplicates
 
-from typing import List
 def hasDuplicate(nums):
     unique = set()
     for x in nums:
