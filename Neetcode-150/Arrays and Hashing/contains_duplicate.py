@@ -4,13 +4,13 @@
 # Hint: Hash set to track duplicates
 
 from typing import List
-def hasDuplicate(self, nums: List[int]) -> bool:
-        unique = set()
-        for x in nums:
-            if x in unique:
-                return True
-            unique.add(x)
-        return False
+def hasDuplicate(nums):
+    unique = set()
+    for x in nums:
+        if x in unique:
+            return True
+        unique.add(x)
+    return False
 
 # Time Complexity:
 # - Initializing an empty set: O(1)
@@ -18,8 +18,10 @@ def hasDuplicate(self, nums: List[int]) -> bool:
 #   - For each element:
 #       - Checking membership in a set: O(1) average-case
 #       - Adding to a set: O(1) average-case
-
-
 # Space Complexity:
 # - Set 'unique' can grow up to size n in worst-case (no duplicates): O(n)
 
+nums = [1, 2, 3, 4]
+print(hasDuplicate(nums)) # False
+nums = [1, 2, 3, 1] 
+print(hasDuplicate(nums)) # True
