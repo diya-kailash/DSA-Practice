@@ -1,7 +1,7 @@
 # Container With Most Water
 # Overall Time Complexity: O(n)
 # Overall Space Complexity: O(1)
-# Hint: Two-pointer approach to maximize width and height product
+# Hint: Two-pointer technique
 
 def maxArea(heights):
     max_area = 0
