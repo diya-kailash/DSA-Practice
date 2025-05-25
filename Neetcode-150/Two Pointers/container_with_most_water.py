@@ -20,7 +20,7 @@ def maxArea(heights):
 #   - Each index is visited at most once as either `i` or `j` moves inward each step
 #   - Area calculation and comparison: O(1) per step
 # Space Complexity:
-# - Uses a few integer variables (`max_area`, `i`, `j`, `area`): O(1)
+# - Uses only a few integer variables (`max_area`, `i`, `j`, `area`): O(1)
 
 height = [1,7,2,5,4,7,3,6]
 print(maxArea(height))  # Output: 36

@@ -25,7 +25,7 @@ def trap(height):
 #   - Each element is visited at most once
 #   - max operations and arithmetic per step: O(1)
 # Space Complexity:
-# - Only a few integer variables (`i`, `j`, `left_max`, `right_max`, `max_area`): O(1)
+# - Uses only a few integer variables (`i`, `j`, `left_max`, `right_max`, `max_area`): O(1)
 
 height = [0,1,0,2,1,0,1,3,2,1,2,1]
 print(trap(height))  # Output: 6
