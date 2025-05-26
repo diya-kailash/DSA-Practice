@@ -21,7 +21,7 @@ def lengthOfLongestSubstring(s):
 # - Each character is added and removed from the set at most once
 # Space Complexity:
 # - The set `unique` stores at most `m` characters
-# - In worst case (all unique characters in the string), space is O(m))
+# - In worst case (all unique characters in the string), space is O(m)
 
 s = "zxyzxyz"
 print(lengthOfLongestSubstring(s))  # Output: 3 
