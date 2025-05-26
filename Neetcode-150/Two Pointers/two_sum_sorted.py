@@ -1,7 +1,7 @@
 # Two Sum in Sorted Array
 # Overall Time Complexity: O(n)
 # Overall Space Complexity: O(1)
-# Hint: Two-pointer technique 
+# Hint: Two-pointer technique - i at beginning and j at end, move inward
 
 def twoSum(numbers, target):
     i, j = 0, len(numbers) - 1
