@@ -7,12 +7,12 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def add_start(self, data):
+    def insert_start(self, data):
         new = Node(data)
         new.next = self.head
         self.head = new
         
-    def add_end(self, data):
+    def insert_end(self, data):
         new = Node(data)
         if self.head is None:
             self.head = new
@@ -51,5 +51,21 @@ class LinkedList:
         while current is not None:
             print(current.data, end=" -> " if current.next else "\n")
             current = current.next
+
+    def search(self, data):
+        current = self.head
+        while current is not None:
+            if current.data == data:
+                return True
+            current = current.next
+        return False
+    
+    def size(self):
+        count = 0
+        current = self.head
+        while current is not None:
+            count += 1
+            current = current.next
+        return count
 
 
