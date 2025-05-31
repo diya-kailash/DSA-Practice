@@ -67,5 +67,10 @@ class LinkedList:
             count += 1
             current = current.next
         return count
+    
+    # def reverse(self):
+    # def insert_at(self, data, position):
+    # def delete_at(self, position):
+    # def delete_value(self, data):
 
 
