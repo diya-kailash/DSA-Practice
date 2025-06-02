@@ -7,6 +7,14 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    def size(self):
+        count = 0
+        current = self.head
+        while current is not None:
+            count += 1
+            current = current.next
+        return count
+
     def insert_start(self, data):
         new = Node(data)
         new.next = self.head
@@ -105,14 +113,6 @@ class LinkedList:
                 return True
             current = current.next
         return False
-    
-    def size(self):
-        count = 0
-        current = self.head
-        while current is not None:
-            count += 1
-            current = current.next
-        return count
     
     def reverse(self):
         prev = None
