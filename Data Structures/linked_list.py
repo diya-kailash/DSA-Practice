@@ -141,6 +141,7 @@ print("\nInserting at position:")
 ll.insert_at(25, 3)  
 ll.display()
 ll.insert_at(5, 1)  
+ll.display()
 ll.insert_at(50, ll.size() + 1)  
 ll.display()
 
