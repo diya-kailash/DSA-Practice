@@ -57,14 +57,15 @@ queue.enqueue(10)
 queue.enqueue(20)
 queue.enqueue(30)
 queue.enqueue(40)
+queue.display()
 print("Size after enqueue 40:", queue.size())  # 4
 queue.enqueue(50)
-queue.display()
 queue.enqueue(60)
 print("Dequeued:", queue.dequeue())  # 10
 print("Dequeued:", queue.dequeue())  # 20
-print("Size after 2nd dequeue:", queue.size())  # 3
-queue.enqueue(60)
-queue.enqueue(70)
-print("Size after enqueue 70:", queue.size())  # 5
 queue.display()
+print("Size after 2nd dequeue:", queue.size())  # 3
+queue.enqueue(70)
+queue.display()
+print("Size after enqueue 70:", queue.size())  # 5
+
