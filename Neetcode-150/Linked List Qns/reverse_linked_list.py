@@ -3,11 +3,6 @@
 # Overall Space Complexity: O(1)
 # Hint: Traverse the list once, reverse pointers in-place
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
 def reverseList(head):
     if head is None:
         return None

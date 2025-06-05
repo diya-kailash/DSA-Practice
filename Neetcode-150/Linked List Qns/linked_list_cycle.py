@@ -3,11 +3,6 @@
 # Overall Space Complexity: O(1)
 # Hint: Use slow and fast pointers - moving at different speeds; if there's a cycle, they will eventually meet
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
 def hasCycle(head):
     slow, fast = head, head
     while fast and fast.next:
