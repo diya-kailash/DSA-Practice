@@ -25,5 +25,7 @@ def lastStoneWeight(stones):
 # - Heap stores up to n elements: O(n)
 # - No additional space used
 
-
-
+stones = [2,3,6,2,4]
+print(lastStoneWeight(stones))  # Output: 1
+stones = [1,2]
+print(lastStoneWeight(stones))  # Output: 1
