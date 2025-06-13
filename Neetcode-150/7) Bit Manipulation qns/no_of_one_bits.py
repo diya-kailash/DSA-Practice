@@ -3,7 +3,7 @@
 # Overall Space Complexity: O(1)
 # Hint: n & (n - 1) removes the lowest set bit from n in each iteration
 
-def hammingWeight(self, n: int) -> int:
+def hammingWeight(n):
     result = 0
     while n:
         n = n & (n - 1)  
@@ -17,3 +17,8 @@ def hammingWeight(self, n: int) -> int:
 # Space Complexity:
 # - Only a constant number of variables used: O(1)
 # - No additional space needed
+
+n = 0b00000000000000000000000000010111
+print(hammingWeight(n))  # Output: 4
+n = 0b1111111111111111111111111111101
+print(hammingWeight(n))  # Output: 30

@@ -18,3 +18,8 @@ def countBits(n):
 # Space Complexity:
 # - dp array of size n+1: O(n)
 # - Constant space for `offset`: O(1)
+
+n = 4
+print(countBits(n))  # Output: [0, 1, 1, 2, 1]
+n = 7
+print(countBits(n))  # Output: [0, 1, 1, 2, 1, 2, 2, 3]
