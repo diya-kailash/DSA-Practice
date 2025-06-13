@@ -15,3 +15,8 @@ def singleNumber(nums):
 # Space Complexity:
 # - Constant space used for `result`: O(1)
 # - No additional data structures used
+
+nums = [3,2,3]
+print(singleNumber(nums))  # Output: 2
+nums = [7,6,6,7,8]
+print(singleNumber(nums))  # Output: 8
