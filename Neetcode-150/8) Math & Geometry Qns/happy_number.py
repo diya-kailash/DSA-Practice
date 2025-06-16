@@ -22,8 +22,8 @@ def isHappy(n):
 
 # Time Complexity:
 # - Each call to `sum_of_squares`: O(log n) 
-# - Number of iterations is bounded (the process converges or loops over a small cycle)
-# - Total: O(log n)
+# - Number of iterations, k is bounded (the process converges or loops over a small cycle)
+# - Total: O(log n) per iteration × O(k) iterations
 # Space Complexity:
 # - Visited set stores previous numbers: O(k)
 # - Each number is at most O(log n) digits
