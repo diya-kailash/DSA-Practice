@@ -25,3 +25,8 @@ def subsets(nums):
 # - Recursion stack depth: O(n)
 # - Output list stores 2^n subsets, each of size up to n: O(n × 2^n)
 # - Total: O(n) excluding output space
+
+nums = [1,2,3]
+print(subsets(nums))  # Output: [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
+nums = [7]
+print(subsets(nums))  # Output: [[], [7]]

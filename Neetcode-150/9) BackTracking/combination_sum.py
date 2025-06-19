@@ -29,3 +29,11 @@ def combinationSum(nums, target):
 # - Recursion stack depth up to O(t) in worst case (max depth = t/m)
 # - Output stores all valid combinations: O(k)
 # - Total: O(t), excluding output space
+
+nums = [2,5,6,9] 
+target = 9
+print(combinationSum(nums, target)) # Output: [[2,2,5],[9]]
+
+nums = [3,4,5]
+target = 16
+print(combinationSum(nums, target)) # Output: [[3,3,3,3,4],[3,3,5,5],[4,4,4,4],[3,4,4,5]]
