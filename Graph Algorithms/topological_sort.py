@@ -22,5 +22,5 @@ def topological_sort(graph):
             dfs(node)
     return stack[::-1]  
 
-print("Topological Sort:", topological_sort(graph))
+print(topological_sort(graph))
 
