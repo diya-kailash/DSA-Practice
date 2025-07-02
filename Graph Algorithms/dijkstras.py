@@ -13,10 +13,11 @@ def dijkstras(start):
     distance[start] = 0
     heapq.heappush(min_heap, (0, start))
     while min_heap:
-        curr_dist, current = heapq.heappop(min_heap)
-        for neighbor, weight in graph[current]:
-            if curr_dist + weight < distance[neighbor]:
-                distance[neighbor] = curr_dist + weight
-                heapq.heappush(min_heap, (distance[neighbor], neighbor))
+        curr_dist, u = heapq.heappop(min_heap)
+        for v, wt in graph[u]:
+            if curr_dist + wt < distance[v]:
+                distance[v] = curr_dist + wt
+                heapq.heappush(min_heap, (distance[v], v))
     return distance
+
 print(dijkstras(0))
