@@ -16,11 +16,12 @@ def bellman_ford(start):
             for v, wt in graph[u]:
                 if distance[u] != float('inf') and distance[u] + wt < distance[v]:
                     distance[v] = distance[u] + wt
-    # Optional: Detect negative weight cycles
+    # Detect negative weight cycles
     for u in graph:
         for v, wt in graph[u]:
             if distance[u] != float('inf') and distance[u] + wt < distance[v]:
-                raise ValueError("Graph contains a negative weight cycle")
+                print("Graph contains a negative weight cycle")
+                return
     return distance
 
 print(bellman_ford(0))
