@@ -1,4 +1,3 @@
-
 # adjacency list representation of the graph
 def dfs_list(graph, start):
     stack = [start]
