@@ -1,3 +1,8 @@
+# Kruskal's Algorithm 
+# Time Complexity: O(E log E)
+# Space Complexity: O(V)
+# When to Use: Use Kruskal’s algorithm to find the Minimum Spanning Tree (MST) of a weighted, connected, undirected graph, especially when the graph is sparse.
+
 graph = {
     0: [(1, 2), (2, 5)],
     1: [(0, 2), (2, 3), (3, 4)],

@@ -1,3 +1,8 @@
+# Prim's Algorithm 
+# Time Complexity: O((V + E) * log V)
+# Space Complexity: O(V + E)
+# When to Use: Use Prim’s algorithm to find the Minimum Spanning Tree (MST) of a weighted, connected, undirected graph, minimizing the total edge weight.
+
 import heapq
 graph = {
     0: [(1, 2), (2, 5)],

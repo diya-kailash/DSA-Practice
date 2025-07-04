@@ -1,3 +1,8 @@
+# Union-Find (Disjoint Set Union - DSU) with Path Compression and Union by Rank
+# Time Complexity: O(α(N)) per operation  # α(N) is the inverse Ackermann function, nearly constant time
+# Space Complexity: O(N)
+# When to Use: Use Union-Find to efficiently manage disjoint sets, commonly used in Kruskal's algorithm, cycle detection in graphs, and dynamic connectivity problems.
+
 n = 7 
 parent = [i for i in range(n)]
 rank = [0] * n
