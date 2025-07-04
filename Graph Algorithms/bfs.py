@@ -1,3 +1,8 @@
+# Breadth-First Search (BFS) 
+# Time Complexity: O(V + E) 
+# Space Complexity: O(V)
+# When to Use: Use BFS when you need to find the shortest path in an unweighted graph, explore all nodes layer by layer, or check for connectivity in graphs.
+
 from collections import deque
 
 # adjacency list representation of the graph

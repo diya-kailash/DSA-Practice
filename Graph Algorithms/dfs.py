@@ -1,3 +1,8 @@
+# Depth-First Search (DFS) - Iterative
+# Time Complexity: O(V + E)
+# Space Complexity: O(V)
+# When to Use: Use DFS when you need to explore as deep as possible along each branch before backtracking.
+
 # adjacency list representation of the graph
 def dfs_list(graph, start):
     stack = [start]
