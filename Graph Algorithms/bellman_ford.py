@@ -1,3 +1,8 @@
+# Bellman-Ford Algorithm
+# Time Complexity: O(V * E)
+# Space Complexity: O(V)
+# When to Use: Use Bellman-Ford when you need to find the shortest path in graphs that may have negative weight edges and need to detect negative weight cycles.
+
 graph = {
     0: [(1, 2), (2, 4)],
     1: [(2, 1), (3, 7)],

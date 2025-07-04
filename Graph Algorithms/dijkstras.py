@@ -1,3 +1,8 @@
+# Dijkstra's Algorithm 
+# Time Complexity: O((V + E) * log V) 
+# Space Complexity: O(V)
+# When to Use: Use Dijkstra’s algorithm to find the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights.
+
 import heapq
 graph = {
     0: [(1, 2), (2, 4)],

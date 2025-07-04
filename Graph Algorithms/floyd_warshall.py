@@ -1,3 +1,8 @@
+# Floyd-Warshall Algorithm
+# Time Complexity: O(V^3)
+# Space Complexity: O(V^2)
+# When to Use: Use Floyd-Warshall when you need to find the shortest paths between all pairs of vertices, especially in dense graphs or when you need to check for negative weight cycles.
+
 graph = {
     0: [(1, 2), (2, 4)],
     1: [(2, 1), (3, 7)],
