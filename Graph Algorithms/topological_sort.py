@@ -1,4 +1,8 @@
-# Topological Sort using DFS - Directed Acyclic Graph (DAG)
+# Topological Sort using DFS 
+# Time Complexity: O(V + E)
+# Space Complexity: O(V)
+# When to Use: Use Topological Sort on Directed Acyclic Graphs (DAGs) when you need to order tasks based on dependencies, such as in scheduling, build systems, and resolving symbol dependencies in compilers.
+
 graph = {
     5: [2, 0],
     4: [0, 1],
